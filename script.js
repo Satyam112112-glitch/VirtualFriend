@@ -111,13 +111,16 @@ async function sendMessage() {
 
     try {
       // Make a request to your backend server
-      const response = await fetch("http://localhost:3000/chat", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({ message: message }),
-      });
+      const response = await fetch(
+        "https://virtualfriend-backend.onrender.com/chat",
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify({ message: message }),
+        }
+      );
 
       if (!response.ok) {
         throw new Error("Network response was not ok");
