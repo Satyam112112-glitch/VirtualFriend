@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VirtualFriend - Your AI Companion for Emotional Support</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Quicksand:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container header-content">
+        <div class="logo">
+          <i class="fas fa-robot"></i>
+          <span>VirtualFriend</span>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#how-it-works">How It Works</a></li>
+            <li><a href="#chat">Try It</a></li>
+            <li><a href="#faq">FAQ</a></li>
+            <li><a href="#" class="btn btn-accent">Get Started</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section class="hero">
+      <div class="container hero-content">
+        <h1>Your AI Companion for Emotional Support</h1>
+        <p>
+          VirtualFriend is a safe space for teens to share unspoken pain and
+          find empathetic support through AI-powered conversations.
+        </p>
+        <div class="mood-selector">
+          <div class="mood-btn active"><i class="fas fa-smile"></i> Happy</div>
+          <div class="mood-btn"><i class="fas fa-sad-tear"></i> Sad</div>
+          <div class="mood-btn"><i class="fas fa-angry"></i> Angry</div>
+          <div class="mood-btn"><i class="fas fa-tired"></i> Anxious</div>
+        </div>
+        <a href="#chat" class="btn">Start Chatting Now</a>
+      </div>
+    </section>
+
+    <section class="features" id="features">
+      <div class="container">
+        <h2 class="section-title">Why Choose VirtualFriend?</h2>
+        <div class="features-grid">
+          <div class="feature-card">
+            <div class="feature-icon">
+              <i class="fas fa-lock"></i>
+            </div>
+            <h3>100% Private & Secure</h3>
+            <p>
+              Your conversations are encrypted and completely confidential. No
+              judgment, just support.
+            </p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">
+              <i class="fas fa-brain"></i>
+            </div>
+            <h3>AI-Powered Support</h3>
+            <p>
+              Our advanced AI understands your feelings and provides helpful
+              guidance whenever you need it.
+            </p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon">
+              <i class="fas fa-clock"></i>
+            </div>
+            <h3>Available 24/7</h3>
+            <p>
+              Never feel alone again. Your virtual friend is always here for
+              you, day or night.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="how-it-works" id="how-it-works">
+      <div class="container">
+        <h2 class="section-title">How It Works</h2>
+        <div class="steps">
+          <div class="step">
+            <div class="step-number">1</div>
+            <h3>Share Your Feelings</h3>
+            <p>
+              Begin by sharing what's on your mind. No topic is too big or
+              small.
+            </p>
+          </div>
+          <div class="step">
+            <div class="step-number">2</div>
+            <h3>Get Empathetic Responses</h3>
+            <p>
+              Receive understanding and support tailored to your emotional
+              state.
+            </p>
+          </div>
+          <div class="step">
+            <div class="step-number">3</div>
+            <h3>Find Coping Strategies</h3>
+            <p>Get helpful guidance and techniques to manage your emotions.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="chat-demo" id="chat">
+      <div class="container">
+        <h2 class="section-title">Chat With Your Virtual Friend</h2>
+        <div class="chat-container">
+          <div class="chat-header">
+            <div class="chat-title">
+              <div class="chat-avatar">
+                <i class="fas fa-robot"></i>
+              </div>
+              <h3>Your Virtual Friend</h3>
+            </div>
+            <div class="chat-controls">
+              <div class="language-selector">
+                <button
+                  class="chat-btn"
+                  id="languageBtn"
+                  aria-label="Select language"
+                >
+                  <i class="fas fa-globe"></i> <span>Language</span>
+                </button>
+                <div class="language-dropdown" id="languageDropdown">
+                  <div class="language-option active">
+                    <div class="language-flag">🇺🇸</div>
+                    <span>English</span>
+                  </div>
+                  <div class="language-option">
+                    <div class="language-flag">🇮🇳</div>
+                    <span>Hindi</span>
+                  </div>
+                  <div class="language-option">
+                    <div class="language-flag">🇮🇳</div>
+                    <span>Bengali</span>
+                  </div>
+                  <div class="language-option">
+                    <div class="language-flag">🇮🇳</div>
+                    <span>Tamil</span>
+                  </div>
+                  <div class="language-option">
+                    <div class="language-flag">🇮🇳</div>
+                    <span>Telugu</span>
+                  </div>
+                  <div class="language-option">
+                    <div class="language-flag">🇮🇳</div>
+                    <span>Marathi</span>
+                  </div>
+                  <div class="language-option">
+                    <div class="language-flag">🇮🇳</div>
+                    <span>Gujarati</span>
+                  </div>
+                  <div class="language-option">
+                    <div class="language-flag">🇪🇸</div>
+                    <span>Spanish</span>
+                  </div>
+                  <div class="language-option">
+                    <div class="language-flag">🇫🇷</div>
+                    <span>French</span>
+                  </div>
+                </div>
+              </div>
+              <button
+                class="chat-btn"
+                id="clearChatBtn"
+                aria-label="Clear chat"
+              >
+                <i class="fas fa-trash"></i> <span>Clear Chat</span>
+              </button>
+              <button class="chat-btn" id="themeBtn" aria-label="Toggle theme">
+                <i class="fas fa-moon"></i> <span>Theme</span>
+              </button>
+            </div>
+          </div>
+          <div class="chat-messages" id="chatMessages">
+            <div class="message-typing" id="typingIndicator">
+              <div class="typing-dot"></div>
+              <div class="typing-dot"></div>
+              <div class="typing-dot"></div>
+            </div>
+          </div>
+          <div class="chat-input">
+            <input
+              type="text"
+              placeholder="Type your message here..."
+              id="messageInput"
+            />
+            <button id="sendMessageBtn" title="Send message">
+              <i class="fas fa-paper-plane"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="faq" id="faq">
+      <div class="container">
+        <h2 class="section-title">Frequently Asked Questions</h2>
+        <div class="faq-list">
+          <div class="faq-item">
+            <div class="faq-question">
+              Is this service really anonymous?
+              <i class="fas fa-chevron-down"></i>
+            </div>
+            <div class="faq-answer">
+              <p>
+                Yes, absolutely. We don't require any personal information to
+                use our chat service. Your privacy is our top priority. All
+                conversations are encrypted and we don't store any personally
+                identifiable information.
+              </p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <div class="faq-question">
+              Is this a replacement for therapy?
+              <i class="fas fa-chevron-down"></i>
+            </div>
+            <div class="faq-answer">
+              <p>
+                No, VirtualFriend is not a replacement for professional therapy.
+                It's a tool for emotional support and can complement
+                professional help. If you're experiencing a mental health
+                crisis, please contact a licensed mental health professional.
+              </p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <div class="faq-question">
+              What kind of issues can I discuss?
+              <i class="fas fa-chevron-down"></i>
+            </div>
+            <div class="faq-answer">
+              <p>
+                You can talk about anything that's on your mind - school stress,
+                relationships, family issues, self-esteem, or anything else
+                you're going through. Your virtual friend is here to listen and
+                provide support.
+              </p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <div class="faq-question">
+              How does the AI understand my feelings?
+              <i class="fas fa-chevron-down"></i>
+            </div>
+            <div class="faq-answer">
+              <p>
+                Our AI has been specially trained to recognize emotional cues
+                and respond with empathy and understanding. It uses natural
+                language processing to understand your messages and provide
+                supportive responses tailored to your emotional state.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-column">
+            <h3>VirtualFriend</h3>
+            <p>
+              A safe space for teens to express their unshareable pain and find
+              support through AI-powered conversations.
+            </p>
+            <div class="social-links">
+              <a href="#" aria-label="Follow us on Facebook"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+              <a href="#" aria-label="Follow us on Twitter"
+                ><i class="fab fa-twitter"></i
+              ></a>
+              <a href="#" aria-label="Follow us on Instagram"
+                ><i class="fab fa-instagram"></i
+              ></a>
+              <a href="#" aria-label="Connect with us on LinkedIn"
+                ><i class="fab fa-linkedin-in"></i
+              ></a>
+            </div>
+          </div>
+          <div class="footer-column">
+            <h3>Quick Links</h3>
+            <ul>
+              <li><a href="#features">Features</a></li>
+              <li><a href="#how-it-works">How It Works</a></li>
+              <li><a href="#chat">Try It</a></li>
+              <li><a href="#faq">FAQ</a></li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h3>Resources</h3>
+            <ul>
+              <li><a href="#">Crisis Hotlines</a></li>
+              <li><a href="#">Mental Health Resources</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Support Forums</a></li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h3>Contact</h3>
+            <ul>
+              <li><a href="#">Email Us</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Terms of Service</a></li>
+              <li><a href="#">Support</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="copyright">
+          <p>&copy; 2025 VirtualFriend. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
